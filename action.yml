@@ -1,0 +1,9 @@
+name: 'PHPCS by MayMeow'
+author: 'May Meow'
+description: 'Containerized environment to check code style'
+branding:
+  icon: 'check-square'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
